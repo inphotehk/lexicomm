@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sydjs.com
 =========
 
@@ -73,3 +74,7 @@ The first time you run the site, the homepage will warn you that it expects ther
 You'll probably want to add some other content too (blog post, members, etc) to get all the pages looking right.
 
 ... happy hacking!
+=======
+# lexicomm
+test
+>>>>>>> 34a2955ccf4d4206a98a783ba1458f287c59f3e1
