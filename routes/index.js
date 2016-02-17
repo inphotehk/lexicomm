@@ -88,6 +88,10 @@ exports = module.exports = function (app) {
 	app.all('/blog/post/:post', routes.views.post);
 	app.get('/about', routes.views.about);
 	app.get('/mentoring', routes.views.mentoring);
+	app.get('/industries', routes.views.industries);
+	app.get('/services', routes.views.services);
+	app.get('/partners', routes.views.partners);
+	app.get('/resources', routes.views.resources);
 
 	app.get('/showbag', routes.views.showbag);
 

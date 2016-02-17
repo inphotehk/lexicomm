@@ -27,6 +27,7 @@
     "keystone": "https://github.com/keystonejs/keystone.git",
     "lodash": "^3.10.1",
     "moment": "^2.10.6",
+    "mongo-express": "^0.30.15",
     "newrelic": "^1.24.0",
     "passport": "^0.3.2",
     "passport-facebook": "^2.0.0",

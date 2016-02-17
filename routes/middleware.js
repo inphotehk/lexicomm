@@ -13,11 +13,15 @@ exports.initLocals = function(req, res, next) {
 
 	locals.navLinks = [
 		{ label: 'Home',		key: 'home',		href: '/' },
+		{ label: 'Services',		key: 'services',		href: '/services' },
+		{ label: 'Industries',		key: 'industries',		href: '/industries' },
+		/**{ label: 'Meetups',		key: 'meetups',		href: '/meetups' },*/
+		/**{ label: 'Members',		key: 'members',		href: '/members' },*/
+		/**{ label: 'Blog',		key: 'blog',		href: '/blog' },*/
 		{ label: 'About',		key: 'about',		href: '/about' },
-		{ label: 'Meetups',		key: 'meetups',		href: '/meetups' },
-		{ label: 'Members',		key: 'members',		href: '/members' },
-		{ label: 'Blog',		key: 'blog',		href: '/blog' },
-		{ label: 'Showbag',		key: 'showbag',		href: '/showbag' }
+		{ label: 'Partners',		key: 'partners',		href: '/partners' },
+		{ label: 'Resources',		key: 'resources',		href: '/resources' }
+		/**{ label: 'Showbag',		key: 'showbag',		href: '/showbag' }*/
 	];
 
 	locals.user = req.user;
@@ -25,7 +29,7 @@ exports.initLocals = function(req, res, next) {
 	locals.basedir = keystone.get('basedir');
 
 	locals.page = {
-		title: 'SydJS',
+		title: 'Lexicomm',
 		path: req.url.split("?")[0] // strip the query - handy for redirecting back to the page
 	};
 

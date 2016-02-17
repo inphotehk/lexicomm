@@ -11,7 +11,7 @@ block intro
 
 	//- HERO
 	if !meetup
-		h2.text-center  Welcome To Lexicomm
+		h2.text-center Coming Soon
 	else
 		article#hero.hero-meetup.hero-meetup--next
 			
@@ -77,9 +77,9 @@ block content
 		
 		//- About
 		article.section.section--featured.home-about: .container
-			h2 Translation and Communications Services in All Languages and Media.
+			h2 
 			.row: .col-sm-8.col-sm-offset-2
-				p.Lexicomm provides best-in-class translation, transcreation, and creative services to help its clients communicate, do business, and grow across languages, cultures, and borders.
+				p
 			if !user
 				.row: .col-sm-4.col-sm-offset-4
 					a(href='/join', data-from=page.path).js-auth-trigger.btn.btn-lg.btn-block.btn-primary.mv-1
