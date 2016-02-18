@@ -12,27 +12,44 @@ footer.site-footer.site-footer--sticky: .container
 			br
 			ul.list-inline
 				li: a(href='/about') More about Lexicomm
-				li: a(href='mailto:info@lexicomm.com') Contact us
+				li: a(href='/contact') info@lexicomm.com
 
 		.col-sm-8
 			.row
 				.col-xs-4
-					h5.footer-heading Members
+					h5.footer-heading Services
 					ul
-						li: a(href='/members') Members
-						li: a(href='/mentoring') Mentoring
-						li: a(href='/members/mentors') Mentors
+						li: a(href='/services/#translation') Translation
+						li: a(href='/services/#creative') Creative
+						li: a(href='/services/#multimedia') Multimedia
+						li: a(herf='/services/#website-localization') Website Localization
+						li: a(herf='/services/#online-training-localization') Online Training Localization
+						li: a(herf='/services/#project-management') Project Management						
 						if !user
-							li: a(href='/join').js-auth-trigger Become a Member
+							li: a(href='/contact').js-auth-trigger 
+				.col-xs-4
+					h5.footer-heading Industries
+					ul
+						li: a(href='/industries/#pharmaceuticals-healthcare') Pharmaceuticals & Healthcare
+						li: a(href='/industries/#commercial-legal-services') Commercial & Legal Services
+						li: a(href='/industries/#manufacturing') Manufacturing
+						li: a(href='/industries/#communications') Communications
+						li: a(href='/industries/#education-training') Education & Training
+						li: a(href='/industries/#government') Government
+						li: a(href='/industries/#social-responsibility') Supporting Social Responsibility
 				.col-xs-4
 					h5.footer-heading Resources
 					ul
-						li: a(href='/organisations') Organisations
-						li: a(href='/links') Links
-						li: a(href='/blog') Blog
-						li: a(href='/showbag') Showbag
+						li: a(href='/about') About
+						li: a(href='/partners') Partners 
+						li: a(href='/industries/#') Video
+						li: a(href='/industries/#') Audio
+						li: a(href='/industries/#') Print
+						li: a(href='/industries/#') Newsletter
+						li: a(href='/industries/#') Brochure
+					br		
 				.col-xs-4
-					h5.footer-heading Sponsors
+					h5.footer-heading Sponsers
 					ul: each sponsor in sponsors
 						li: a(href='/organisations#' + sponsor.id)= sponsor.name
 	.row.footer-copyright

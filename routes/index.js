@@ -92,6 +92,7 @@ exports = module.exports = function (app) {
 	app.get('/services', routes.views.services);
 	app.get('/partners', routes.views.partners);
 	app.get('/resources', routes.views.resources);
+	app.get('/contact', routes.views.contact);
 
 	app.get('/showbag', routes.views.showbag);
 
